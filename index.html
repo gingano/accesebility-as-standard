@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Доступність як стандарт веб розробки</title>
+    <title>Доступність, як стандарт веб розробки</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
@@ -14,12 +14,12 @@
 <body class="shower list">
 
     <header class="caption">
-        <h1>Доступність як стандарт веб розробки</h1>
+        <h1>Доступність, як стандарт веб розробки</h1>
         <p>@gingano</p>
     </header>
 
     <section class="slide" id="cover">
-        <h2>Доступність як стандарт веб розробки</h2>
+        <h2>Доступність, як стандарт веб розробки</h2>
         <figure>
             <img class="cover" src="pictures/cover.jpeg" alt="Accessability icons on ">
             </figcaption>
@@ -94,6 +94,75 @@
                 position: absolute;
                 bottom: 70px;
                 right: 70px;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">Фізеологічні складності</h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">Порушення зору</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Скрін рідери</h2>
+
+        <ul class="images-list">
+            <li class="next">
+                <a href="https://www.nvaccess.org/">
+                    <img src="pictures/NVDA.jpeg" alt="NVDA screen reader icon">
+                </a>
+            </li>
+            <li class="next">
+                <a href="https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn">
+                    <img src="pictures/chrome-reader.jpeg" alt="chrome screen reader icon">
+                </a>
+            </li>
+            <li class="next">
+                <a href="https://wiki.gnome.org/Projects/Orca">
+                    <img src="pictures/orca.jpeg" alt="orca screen reader icon">
+                </a>
+            </li>
+            <li class="next">
+                <a href="https://www.apple.com/accessibility/vision/">
+                    <img src="pictures/voiceover.png" alt="voiceover screen reader icon">
+                </a>
+            </li>
+            <li class="next">
+                <a href="https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1">
+                    <img src="pictures/Narrator.png" alt="narrator screen reader icon">
+                </a>
+            </li>
+            <li class="next">
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback">
+                    <img src="pictures/talkback.webp" alt="talkback screen reader icon">
+                </a>
+            </li>
+        </ul>
+
+        <style>
+            .images-list {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 150px;
+                row-gap: 50px;
+                justify-content: space-around;
+            }
+
+            .images-list li::before {
+                display: none;
+            }
+
+            .images-list a {
+                background-image: none;
+            }
+
+            .images-list img {
+                width: 120px;
+                height: 120px;
+                object-fit: contain;
             }
         </style>
     </section>
