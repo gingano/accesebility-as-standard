@@ -1,24 +1,22 @@
 {
-  "name": "@shower/shower",
-  "description": "Shower HTML presentation engine",
-  "version": "3.1.1",
+  "name": "@gingano/naccessability-as-standard",
+  "description": "Accessibility as standard presentation",
+  "version": "0.0.1",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "https://pepelsbey.net/"
+    "name": "Alex Kovalenko",
+    "url": "https://github.com/gingano"
   },
   "homepage": "https://github.com/shower/shower",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/shower.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shower/shower/issues"
+    "url": "https://github.com/gingano/accessability-as-standard"
   },
   "license": "MIT",
   "keywords": [
     "shower",
     "presentation",
-    "template"
+    "a11y",
+    "accessibility"
   ],
   "files": [
     "pictures/**",
